@@ -1,0 +1,164 @@
+body{
+    background-color: #020202;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+
+.mountain_main{
+    width: 100%;
+}
+.aboutus_head{
+    margin-top: 4rem;
+    margin-bottom: 0;
+font-weight: light;
+font-size: 1.5rem;
+font-kerning: 88;
+}
+.aboutus{
+    margin: auto;
+    width: 70%;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+.branding{
+    margin: 3.4rem auto 4.4rem;
+}
+#behance_logo{
+    margin-top: 20px;
+    width: 33px;
+    margin: 2em;
+    margin-top: 0px;
+    filter: invert();
+    margin-bottom: 20px;
+}
+#linkedin_logo{
+    margin-top: 20px;
+    width: 30px;
+    margin: 2em;
+    margin-top: 0px;
+    filter: invert();
+    margin-bottom: 20px;
+   
+}
+
+#github_logo{
+    margin-top: 20px;
+    width: 30px;
+    margin: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#linkedin_logo:hover{
+    position: relative;
+    bottom: 3px;
+    animation-timing-function: cubic-bezier();
+}
+#behance_logo:hover{
+    position: relative;
+    bottom: 3px;
+    animation-timing-function: cubic-bezier();
+}
+
+#github_logo:hover{
+    position: relative;
+    bottom: 3px;
+    animation-timing-function: cubic-bezier();
+}
+.cta{
+    background-color: white;
+    padding-top: 50px;
+    position: relative;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+h2{
+    color: black;
+    font-family: 'Bebas Nueue', sans-serif;
+    margin-bottom: 23px;
+    font-size: large;
+}
+h2:hover{
+    color: #1501c6;
+    
+}
+hr{
+
+    border: none;
+    height: 0.1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.moonistic_logo{
+    width: 90px;
+}
+    
+.dotted_hr{
+    margin: auto;
+    width: 8%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: rgb(106, 106, 106);
+    margin-bottom: 20px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+/* .brnd{
+    width: 25%;
+    margin: 1.3px;
+    margin-bottom: 5px;
+} */
+.brnd:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.brnd_img{
+    width: 220px;
+    margin: 1.3px;
+    margin-bottom: 50px;
+}
+.brnd_1div{
+    margin: auto;
+}
+.brnd1_des{
+    width: 50%;
+    float: left;
+}
+.brnd2_des{
+    width: 50%;
+    float: right;
+}
+.brnd3_des{
+    width: 50%;
+    float: left;
+}
+.brnd4_des{
+    width: 50%;
+    float: right;
+}
+.brnd5_des{
+    width: 50%;
+    float: left;
+}
