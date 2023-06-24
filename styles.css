@@ -54,7 +54,13 @@ font-kerning: 88;
     margin-bottom: 20px;
    
 }
-
+#discord_logo{
+    margin-top: 20px;
+    width: 35px;
+    margin: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 #github_logo{
     margin-top: 20px;
     width: 30px;
@@ -73,6 +79,11 @@ font-kerning: 88;
     animation-timing-function: cubic-bezier();
 }
 
+#discord_logo:hover{
+    position: relative;
+    bottom: 3px;
+    animation-timing-function: cubic-bezier();
+}
 #github_logo:hover{
     position: relative;
     bottom: 3px;
@@ -82,7 +93,7 @@ font-kerning: 88;
     background-color: white;
     padding-top: 50px;
     position: relative;
-    margin-top: 70px;
+    margin-top: 80px;
     padding-bottom: 20px;
 }
 h2{
@@ -146,11 +157,35 @@ hr{
 	100% {
 		opacity: 1;
 	}
+
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(51, 249, 51, 0.905);
+}
+.buy_now_button{
+    background-color: #020202;
+    border: solid rgb(255, 255, 255);
+    border-width: 0.3px;
+    padding: 10px 6%;
+    border-radius: 8px;
+}
+.buy_now_button:hover{
+    background-color: #161616;
+    border: solid rgb(0, 119, 255);
+    border-width: 0.3px;
+    padding: 10px 6%;
+    border-radius: 8px;
+}
+
 .brnd_img{
     width: 50%;
     margin: 1.3px;
-    margin-bottom: 1rem;
+    margin-bottom: 1%;
 }
 
 .brnd1_des{
@@ -184,7 +219,7 @@ font-size: 90%;
 font-weight: 500;
 margin-bottom: 0.5rem;
 padding: 13px 10px;
-margin-top: 3rem;
+margin-top: 1.7rem;
 padding-top: 15px;
 
 }
@@ -193,9 +228,9 @@ h3:hover{
     background-color: rgb(15, 15, 15);
     border-radius: 20px;
     padding: 13px 10px;
-    width: 70%;
+    width: 80%;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1.7rem;
     margin-bottom: 0.5rem;
     padding-top: 15px;
 }
@@ -206,6 +241,10 @@ h3:hover{
     border-style: dotted none none;
     border-width: 7px;
     border-color: rgb(106, 106, 106);
-    margin-bottom: 20px;
     background-color: #020202;
+}
+.supportus{
+    color: #818181;
+    margin: auto;
+    font-size: smaller;
 }
