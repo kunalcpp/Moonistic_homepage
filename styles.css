@@ -7,6 +7,13 @@ body{
     font-size: 100%;
 }
 
+.navbar-toggler{
+    scale: 70%;
+}
+.navbar-toggler-icon{
+    scale: 70%;
+}
+
 .mountain_main{
     width: 100%;
 }
