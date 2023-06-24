@@ -17,6 +17,13 @@ font-weight: light;
 font-size: 1.5rem;
 font-kerning: 88;
 }
+.products{
+    margin-top: 2rem;
+    margin-bottom: 0;
+font-weight: light;
+font-size: 1.5rem;
+font-kerning: 88;
+}
 .aboutus{
     margin: auto;
     width: 70%;
@@ -27,6 +34,7 @@ font-kerning: 88;
 }
 .branding{
     margin: 3.4rem auto 4.4rem;
+    width: 90%;
 }
 #behance_logo{
     margin-top: 20px;
@@ -86,6 +94,10 @@ h2:hover{
     color: #1501c6;
     
 }
+h1:hover{
+    color: #1501c6;
+    
+}
 hr{
 
     border: none;
@@ -135,30 +147,57 @@ hr{
 	}
 }
 .brnd_img{
-    width: 220px;
+    width: 180px;
     margin: 1.3px;
     margin-bottom: 50px;
 }
-.brnd_1div{
-    margin: auto;
-}
+
 .brnd1_des{
     width: 50%;
     float: left;
+    margin-left: 2%;
+    text-align: left;
+
 }
 .brnd2_des{
     width: 50%;
     float: right;
+    text-align: right;
+    margin-right: 3%;
+
 }
 .brnd3_des{
     width: 50%;
     float: left;
+    text-align: left;
+    margin-left: 3%;
+
 }
 .brnd4_des{
     width: 50%;
     float: right;
+    text-align: right;
+    margin-right: 3%;
 }
 .brnd5_des{
     width: 50%;
     float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+h3{
+font-size: 90%;
+font-weight: 500;
+margin-bottom: 1.5rem;
+padding: 13px 10px;
+
+}
+h3:hover{
+    color: #ffffff;
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+    padding: 13px 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1.5rem;
 }
